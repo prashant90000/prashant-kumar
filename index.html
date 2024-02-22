@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alp registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgba(187, 152, 219, 0.61);">
+    <header id="header">
+        <nav id="f_nav">
+            <a id="home" href="#home">Home</a>
+            <a id="A--" href="#A--">A--</a>
+            <a id="A-" href="#A-">A-</a>
+            <a id="A" href="#A">A</a>
+            <a id="A+" href="#A+">A+</a>
+            <a id = "A++"href="#A++">A++</a>
+
+        </nav>
+        <nav id="second_nav">
+           <div><img id="Image_ashok"src="https://seeklogo.com/images/S/satmew-jayte-logo-FBBEBAEA31-seeklogo.com.png" height="80px">
+           <img id="Text"src="RRB-Image.png" alt="">
+            <img id="" src="https://seeklogo.com/images/I/indian-railways-logo-AF2FECA375-seeklogo.com.png" height="80px"></div>
+           
+        
+        </nav>
+    </header>
+    <main>
+        <form action="">
+            <h3>Personal Information
+            </h3><hr><br>
+            <label for="full_name">Full Name:</label>
+            <input type="text"id="full_name"placeholder="Full Name As recorded in Matriculation(10th class) Certificate"><br><br>
+            <label for="re-type_full_name">Re-type Full Name:</label>
+            <input type="text"id="re-type_full_name"placeholder="Re-type Full Name As recorded in Matriculation(10th class) Certificate"><br><br>
+            <label for="c_name">Have you changed your name?</label>
+            
+            <input type="radio"id="yes"name="c_name">
+            <label for="yes">Yes</label>
+            <input type="radio"id = "no"name="c_name">
+            <label for="no">No</label><br><br>
+            <label for="dob">Date Of Birth</label>
+            <input type="date"id = "dob">
+            <label for="r-dob">Re-type Date Of Birth</label>
+            <input type="date" ><br><br>
+            <label for="gender">Select Gender</label>
+            <select name="gender" id="gender">
+                <option value="Select Gender">Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <label for="r-gender">Re-select Gender</label>
+            <select name="gender" id="gender">
+                <option value="Select Gender">Re-select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="other">Other</option>
+            </select><br><br>
+            <label for="father_name">Father's Name:</label>
+            <input type="text"id="father_name"placeholder="Father Name As recorded in Matriculation(10th class) Certificate">
+            <label for="r-father_name">Re-typeFather's Name:</label>
+            <input type="text"id="r-father_name"placeholder="Re-type Father Name As recorded in Matriculation(10th class) Certificate"><br><br>
+            <label for="mother_name">Mother's Name:</label>
+            <input type="text"id="mother_name"placeholder="Mother Name As recorded in Matriculation(10th class) Certificate">
+            <label for="r-mother_name">Re-type Mother's Name:</label>
+            <input type="text"id="r-mother_name"placeholder="Re-type Mother Name As recorded in Matriculation(10th class) Certificate"><br><br>
+             
+            <h3>Aadhaar Verification</h3>
+            <label for="Aadhaar">Please Enter Your Aadhaar Card Number</label>
+            <input type="text"id="Aadhaar"placeholder="Please Enter Your Aadhaar Card Number">
+            <button>Verify Using Aadhaar</button>
+            <button>I Do Not Have Aadhaar Card</button><br><br>
+            <h3>Contact Details</h3>
+            <label for="email">Email Address:</label>
+            <input type="email"id="email"placeholder="Email Address">
+            <label for="otp">Email OTP:</label>
+            <input type="text"id="otp">
+            <input type="text"id="otp">
+            <input type="text"id="otp">
+            <input type="text"id="otp"><br><br>
+            <label for="mb">Mobile Number:</label>
+            <input type="number"id="mb"placeholder="Mobile Number">
+            <label for="otpm">Mobile OTP:</label>
+            <input type="text"id="otpm">
+            <input type="text"id="otpm">
+            <input type="text"id="otpm">
+            <input type="text"id="otpm"><br>
+            <h3>Create Your Password</h3>
+            <label for="password">Password:</label>
+            <input type="password"id ="password">
+            <label for="password">Re-Enter Password:</label>
+            <input type="r-password"id ="r-password">
+            <br><br><input id="submit" type="submit">
+            <input id="reset"type="reset">
+        </form>
+    </main>
+</body>
+</html>

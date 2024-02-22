@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#f_nav{
+    height: 40px;
+    background-color: rgba(70, 2, 2, 0.986);
+    color:white;
+}
+#home{
+    margin-top: 50px;
+}
+
+#second_nav{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    object-fit: contain;
+
+}
+#Image_ashok{
+    padding-right: 300px;
+    padding-left: 50px;
+}
+#Text{
+    padding-right: 250px;
+}
+form{padding: 25px ;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin: 30px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+h3{
+    color: rgb(10, 6, 240);
+}
+
